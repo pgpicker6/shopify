@@ -65,12 +65,16 @@
   font-size: 1.4rem;
   line-height: 1.2;
   letter-spacing: 0.07rem;
+  border: none;
+  outline: none;
 }
 
 .shopify-payment-button__button--unbranded:hover,
 .shopify-payment-button__button--unbranded:hover:not([disabled]) {
-  background-color: var(--color-button-background);
+  background-color: dodgerblue;
   box-shadow: 0 0 0 0.2rem var(--color-button-border);
+  border: none;
+  outline: none;
 }
 
 .shopify-payment-button__button--unbranded:focus {
